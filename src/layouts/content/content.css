@@ -1,0 +1,16 @@
+.main-content {
+  flex: 1;
+  background-color: var(--clr-secondary);
+  padding: 32px;
+}
+
+@media (max-width: 1400px) {
+  .main-content {
+    padding: 32px 20px;
+  }
+}
+@media (max-width: 1200px) {
+  .main-content{
+    padding: 32px 16px;
+  }
+}
